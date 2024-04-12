@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+  color: white;
+  margin: 0 auto;
+}
+
+
+header {
+  font-weight: bold;
+  font-size: 3rem;
+  background-color: #B6DEF2;
+  color: black;
+  padding: 1rem;
+  text-align: center;
+}
+
+.widgets-list {
+  list-style-type: none;
+  padding: 10px;
+  min-width: 376px;
+}
+
+
+.widget {
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 20px 30px;
+}
+
+.widget__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.widgets-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.widget-create {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.widget-create__btn {
+  background-color: #CEF2CE;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.select {
+  background-color: rgba(60, 60, 60, 0.8);
+  color: white;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em;
+  outline: 1px solid gray;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  border: none;
+}
+
+.icon-btn {
+  background-color: inherit;
+  margin: auto;
+  padding: 4px 8px;
+}
+
+.rialto-widget {
+  width: 80%;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.rialto-widget__info {
+  max-width: 176px;
+}
+
+.rialto-widget__info__text {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 4px 0;
+}
+
+.weather-widget {
+  margin-top: 12px;
+  margin-right: 12px;
+  width: 100%;
+}
+
+
+.weather-widget__info {
+  margin-top: 16px;
+  display: flex;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 4px 0;
+}
+
+.weather-widget__info__text {
+  margin-left: 12px;
+}
