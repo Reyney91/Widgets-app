@@ -23,7 +23,7 @@ header {
 .widgets-list {
   list-style-type: none;
   padding: 10px;
-  min-width: 376px;
+  width: 400px;
 }
 
 
@@ -115,4 +115,16 @@ header {
 
 .weather-widget__info__text {
   margin-left: 12px;
+}
+
+@media (max-width: 460px) {
+  .widgets-list {
+    width: 320px;
+  }
+
+  .select {
+    padding: .2em;
+    padding-right: 0;
+  }
+
 }
